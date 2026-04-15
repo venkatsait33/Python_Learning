@@ -36,7 +36,7 @@ for i in range (1,5):
     for j in range(1,5):
         print(i,j)
         
-"""Explanation of Logic
+"""Explanation of Logic   
 The range(1, 5) Function: In Python, the range(start, stop) function includes the starting number but excludes the stopping number. Therefore, range(1, 5) generates the sequence 1, 2, 3, 4.
 Outer Loop (i): The outer loop starts with i = 1. It will not move to i = 2 until the inner loop has finished all its iterations.
 Inner Loop (j): For every single value of i, the inner loop runs completely from 1 to 4. This results in a total of 16 printed lines ()."""
